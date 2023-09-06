@@ -36,6 +36,9 @@ lsblk | grep "boot"
 echo;
 # LANGUAGE
 # TIME ZONE
+echo "TIME ZONE:"
+cat /etc/timezone
+echo;
 # MEMORY
 echo "MEMORY:"                                                                                                                  
 lsmem | grep "Total online memory"
