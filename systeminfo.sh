@@ -34,7 +34,6 @@ echo;
 echo "BOOT DEVICE:"
 lsblk | grep "boot"
 echo;
-# LANGUAGE
 # TIME ZONE
 echo "TIME ZONE:"
 cat /etc/timezone
